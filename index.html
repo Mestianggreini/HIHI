@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            margin: 20px 0;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .submit-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Laporan Praktikum Pertama</h1>
+    <!-- Bagian laporan praktikum pertama -->
+    <p>Isi laporan praktikum pertama di sini...</p>
+    
+    <!-- Form Data Diri -->
+    <h2>Form Data Diri</h2>
+    <form action="celebration.html" method="get">
+        <table>
+            <tr>
+                <td>Nama:</td>
+                <td><input type="text" name="nama" required></td>
+            </tr>
+            <tr>
+                <td>NIM:</td>
+                <td><input type="text" name="nim" required></td>
+            </tr>
+            <tr>
+                <td>Tanggal:</td>
+                <td><input type="date" name="tanggal" required></td>
+            </tr>
+        </table>
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</body>
+</html>
